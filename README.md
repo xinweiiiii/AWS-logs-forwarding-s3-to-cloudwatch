@@ -11,4 +11,6 @@ The terraform code will create a lambda function with all the necessary resource
 3. Run `terraform plan var-file=dev.tfvars`
 4. Run `terraform apply var-file=dev.tfvars`
 
+# Refer to this page for a more detailed explanaton
+[Medium](https://medium.com/@xinweiiiii/forwards-logs-from-aws-s3-to-aws-cloudwatch-real-time-5934287ca1f)
 
