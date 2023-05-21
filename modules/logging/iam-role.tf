@@ -20,7 +20,7 @@ resource "aws_iam_role" "lambda_forward_logs_s3_cloudwatch_role" {
 EOF
   tags = merge({
     Name = "${var.environment}-iam-role"
-  }, var.tags
+  }
   )
 }
 

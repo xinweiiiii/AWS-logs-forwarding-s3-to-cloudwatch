@@ -2,6 +2,10 @@ variable "environment" {
   description = "Code Environment"
 }
 
+variable "region" {
+  description = "Resource deployment region"
+}
+
 variable "s3_source_arn_event_notification" {
   description = "The S3 ARN that will trigger the lambda through even notification"
 }

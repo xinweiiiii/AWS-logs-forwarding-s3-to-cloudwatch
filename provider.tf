@@ -9,7 +9,7 @@ terraform {
 
 # define AWS as provider
 provider "aws" {
-    region = "ap-southeast-1"
+    region = var.region
 }
 
 // If you want to store your terraform state in S3
