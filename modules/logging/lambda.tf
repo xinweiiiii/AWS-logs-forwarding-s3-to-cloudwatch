@@ -42,7 +42,7 @@ resource "aws_lambda_permission" "allow_bucket_forward_logs" {
     function_name = aws_lambda_function.forward_logs_s3_cloudwatch.arn
     principal     = "s3.amazonaws.com"
     source_arn    = var.s3_source_arn_event_notification
-    source_account = var.account_id
+#    source_account = var.account_id
 }
 
 // To manually configure in the console
